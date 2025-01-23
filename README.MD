@@ -18,8 +18,8 @@ A Python project that demonstrates how to send emails using the [Resend](https:/
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/GiapKun/send-mail-with-resend.git
+   cd <send-mail-with-resend>
    ```
 
 2. Install the required dependencies:
