@@ -1,0 +1,121 @@
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background: #ffffff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border: 1px solid #e6e6e6;
+      }
+      .header {
+        background-color: #0078d7;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .content {
+        padding: 20px;
+        line-height: 1.6;
+        color: #333333;
+      }
+      .content p {
+        margin: 10px 0;
+      }
+      .cta-button {
+        display: block;
+        width: fit-content;
+        margin: 20px auto;
+        padding: 12px 30px;
+        background-color: #0078d7;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .cta-button:hover {
+        background-color: #005bb5;
+      }
+      .footer {
+        text-align: center;
+        font-size: 12px;
+        color: #666666;
+        padding: 15px;
+        background-color: #f1f1f1;
+        border-top: 1px solid #dddddd;
+      }
+      .footer a {
+        color: #0078d7;
+        text-decoration: none;
+      }
+      .footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header Section -->
+      <div class="header">Welcome to Your Organization!</div>
+
+      <!-- Content Section -->
+      <div class="content">
+        <p>Hi <b>{{fullname}}</b>,</p>
+        <p>
+          Thank you for signing up for <b>Your Organization</b>! 🎉 We are
+          excited to have you join our growing community.
+        </p>
+        <p>
+          To complete your account setup and unlock the full potential of
+          <b>Your Organization</b>, please verify your account by clicking the
+          button below:
+        </p>
+
+        <!-- Call-to-Action Button -->
+        <a href="{{verification_link}}" target="_blank" class="cta-button">
+          Verify My Account
+        </a>
+
+        <p>
+          Verifying your account ensures that you can start exploring powerful
+          tools and resources tailored to elevate your SEO strategies. 🚀
+        </p>
+        <p>
+          If you did not create an account with <b>Your Organization</b>, no
+          action is needed. Feel free to contact our support team for
+          assistance.
+        </p>
+        <p>Looking forward to seeing your success,</p>
+        <p><b>The Your Organization Team</b></p>
+      </div>
+
+      <!-- Footer Section -->
+      <div class="footer">
+        <p>
+          Need help? Contact our support team at
+          <a href="mailto:support@Your-Organization.com"
+            >support@Your-Organization.com</a
+          >.
+        </p>
+        <p>
+          <a href="https://Your-Organization.com" target="_blank"
+            >Visit Our Website</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
